@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+
+<body>
+       <!--  las listras en HTML sirven para listar contrenido
+             en funcion del tipo de contenido de nuetra lista tenemos tres tipos de listas:
+            * ul ==> unordered list: se ultiliza cuando el orden de los elementos no influye (lista de compras)
+            * ol ==> ordered list: se ultilizan cuando el orden de los elementos es importante (top 10))
+            * dl ==> definition list: se utilizan para hacer una lista de definiciones (diccionario)
+            
+            cada elemento de una lista dse definicion 2 estiqueta:
+            * dt ==> definition term: el termino que vamos a definir
+            * dd ==> definition description: la descripsion del termino
+        -->
+
+        <!-- ATRIBUTOS DE LAS LISTAS
+            * ol ==> >type: esti8lo de numeracion (1, a ,A ,I, i)
+                     >start: Inicio de las secuncias (un numero)
+            * ul ==> type: estilo del item (disc, square, circle)
+        -->
+        <h1>lista</h1>
+
+        <nav>
+            <ul type="circle">
+                <li><a href="#post-1">Post 1</a></li>
+                <li><a href="#post-2">Post 2</a></li>
+                <li><a href="#post-3">Post 3</a></li>
+                <li><a href="#post-4">Post 4</a></li>
+                <li><a href="#post-5">Post 5</a></li>
+            </ul>
+        </nav>
+        <h2>Lista de la compra</h2>
+        <ol type="A">
+            <li>pan</li>
+            <li>queso</li>
+            <li>cerveza</li>
+            <li>palta</li>
+        </ol>
+        <h2>orden de aprendizaje en el desarrolo web</h2>
+        <ol type="1" start="9">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <h2>lenguaje para el desarrolo wb</h2>
+        <dl>
+          <dt>HTML</dt>
+          <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur earum nisi deserunt qui, quas unde aperiam accusamus? Repudiandae consequuntur est minus veritatis autem nesciunt in quam perspiciatis nostrum maiores.
+          </dd>
+          <dt>CSS</dt>
+          <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur earum nisi deserunt qui, quas unde aperiam accusamus? Repudiandae consequuntur est minus veritatis autem nesciunt in quam perspiciatis nostrum maiores.</dd>
+          <dt>JavaScript</dt>
+          <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur earum nisi deserunt qui, quas unde aperiam accusamus? Repudiandae consequuntur est minus veritatis autem nesciunt in quam perspiciatis nostrum maiores.</dd>
+          
+        </dl>
+</body>
+</html>
